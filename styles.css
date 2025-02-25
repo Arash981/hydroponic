@@ -20,6 +20,27 @@
   margin: auto;
   padding: 5rem 1rem;
 }
+.header .header__container p {
+  margin-bottom: 1rem;
+  font-size: 1rem; /* Adjust the font size as needed */
+  color: var(--white);
+  text-align: center;
+  opacity: 0.6;
+}
+
+.header .header__container h1 {
+  font-size: 2rem; /* Adjust the font size as needed */
+  font-weight: 500;
+  line-height: 3rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.header .header__container h1 span {
+  color: var(--primary-color);
+}
+
+
 
 .section__subheader {
   margin-bottom: 0.5rem;
@@ -94,7 +115,7 @@ body {
 }
 
 .header {
-  background-image: url("assets/header4.jpg");
+  background-image: url("assets/background-7.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
